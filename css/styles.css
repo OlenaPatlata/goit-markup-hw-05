@@ -268,19 +268,29 @@ svg {
   width: 1170px;
 }
 .direction-item:not(:last-child) {
-  padding-right: 30px;
+  margin-right: 30px;
 }
-/* .direction-item {
+.direction-item {
   position: relative;
 }
 .lable {
   position: absolute;
   height: 70px;
   width: 100%;
-  top: 0;
+  bottom: 0;
   left: 0;
   background-color: rgba(47, 48, 58, 0.8);
-} */
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--additional-accent-color);
+}
 /* ---------------SECTION TEAM----------------- */
 .team {
   background-color: var(--additional-background-color);
