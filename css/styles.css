@@ -553,7 +553,10 @@ footer .social-link {
   background-color: var(--additional-accent-color);
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
-  border-color: black;
+  color: var(--logo-text-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .backdrop.is-hidden {
   opacity: 0;
@@ -561,7 +564,9 @@ footer .social-link {
   visibility: hidden;
   transform: rotate(180deg);
 }
-
+.modal.icon {
+  fill: currentColor;
+}
 /* ---------------PAGE PORTFOLIO----------------- */
 /* ---------------SECTION PORTFOLIO----------------- */
 .portfolio.section {
