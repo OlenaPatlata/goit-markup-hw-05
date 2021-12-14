@@ -270,6 +270,17 @@ svg {
 .direction-item:not(:last-child) {
   padding-right: 30px;
 }
+/* .direction-item {
+  position: relative;
+}
+.lable {
+  position: absolute;
+  height: 70px;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(47, 48, 58, 0.8);
+} */
 /* ---------------SECTION TEAM----------------- */
 .team {
   background-color: var(--additional-background-color);
